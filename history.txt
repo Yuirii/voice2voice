@@ -1,0 +1,654 @@
+ipconfig
+ipconfig
+ifconfig
+ls
+ls
+cd Desktop
+ls
+ls
+python
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd opt
+ls
+ls
+cd opy
+cd opt
+cd opt
+ls
+cd //
+cd ..
+ls
+cd home
+ls
+ls
+cd ..
+cd Applications
+ls
+cd ..
+ls
+cd Users
+ls
+cd yuulehang
+ls
+cd D
+cd Downloads
+ls
+ls
+ls
+cd ..
+ls
+ cd ..
+ls
+cd yuulehang
+ls
+mkdir items
+ls
+cd items
+ls
+mkdir miniconda3
+ls
+cd miniconda3
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o miniconda.sh
+ls
+bash -h
+bash ~/miniconda.sh -b -u -p ~/
+bash ~/miniconda.sh -b -u -p /
+bash ~/miniconda.sh -b -u -p ./
+bash ~/miniconda.sh -b -u -p 
+ls
+bash ~/miniconda.sh -b -u -p .
+ls
+cd ..
+ls
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+bash ~/items/miniconda3/miniconda.sh -b -u -p ~/items/miniconda3
+ls
+cd miniconda3
+ls
+cd ..
+ls
+source miniconda3/bin/activate
+ls
+pip list
+python -v
+python -v
+python -V
+conda -v
+conda -V
+ls
+ls
+cd //
+ls
+cd Users
+ls
+cd u
+cd yuulehang
+ls
+cd Downloads
+ls
+rm Anaconda3-2024.10-1-MacOSX-arm64.pkg
+ls
+cd ..
+ls
+cd items
+ls
+cd miniconda3
+ls
+cd ..
+conda env list
+pip lsit
+pip list
+python show torch
+ls list
+ls
+apt
+pip list
+ls
+cd miniconda3
+ks
+ls
+cd bin
+ls
+cd ..
+ls
+cd envs
+ls
+cd .
+cd ..
+cd man
+ls
+cd ..
+conda env list
+cd ..
+conda env list
+rm ~/items/miniconda3/miniconda.sh
+source ~/miniconda3/bin/activate
+source ~/items/miniconda3/bin/activate
+conda init --all
+conda env list
+ls
+cd /
+ls
+cd Users
+ls
+cd yuulehang
+ls
+cd Downloads
+ls
+ls
+rm LM-Studio-0.3.9-6-arm64.dmg
+rm clashcn.com_ClashXPro.dmg
+ls
+cd ..
+ls
+cd D
+ls
+cd D
+cd Desktop
+ls
+cd ..
+ls
+cd /
+ls
+cd Applications
+ls
+ls
+cd ..
+ls
+cd Users
+ls
+cd yuulehang
+ls
+cd Documents
+ls
+ls
+ls
+ls
+cd /
+ls
+cd Applications
+ls
+rm ClashX\ Pro.app
+rm ClashX Pro.app
+rm ClashX/ Pro.app
+rm ClashX\ Pro.app
+rm ClashX\ Pro.app
+cd C
+cd ClashX\ Pro.app
+ls
+cd ..
+cd ..
+cd Applications/ClashX\ Pro.app
+rm -rf Contents
+ls
+cd ..
+rm -rf ClashX\ Pro.app
+ls
+ls
+cd ..
+ls
+cd Applications
+ls
+ls
+cd /
+ls
+cd ~/.config/clash
+ls
+cd ..
+ls
+rm -rf ~/.config/clash
+ls
+cd /
+ls
+cd Applications
+ls
+ls
+cd ..
+ls
+cd Users/yuulehang
+ls
+cd Downloads
+ls
+rm -rf clashcn.com_ClashX.dmg
+ls
+conda create -n deepseek32b
+conda env list
+conda activate deepseek32b
+ls
+pip list
+conda list
+conda pip list
+conda list
+python -V
+conda --version
+python --version
+conda deactivate
+conda env remove -n deepseek32b
+conda env list
+conda create -n deepseek32b python=3.12
+conda env list
+conda activate deepseek32b
+pip list
+python --version
+ls
+cd items
+ls
+cd 
+ls
+cd items
+source miniconda3/bin/activate
+conda env list
+conda deepseek32b activate
+conda activate deepseek32b
+ls
+pip list
+conda -V
+ls
+python -V\\
+exit()
+python -VV
+piplist
+pip list
+conda activate deepseek32b
+pip list
+pip install mlx
+pip install pyaudio, webrtcvad
+pip install pyaudio
+pip install pyaudio
+pip list
+conda install pyaudio
+pip lsit
+pip list
+ls
+cd Downloads
+ls
+ls
+pythhon --version
+conda --version
+conda activate deepseek32b
+ls
+python --version
+ls
+cd items
+ls
+cd pythonproj/whispertest
+ls
+python test.py
+python test.py
+python test.py
+python test.py
+python test.py
+python test.py
+/usr/bin/python3 /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+ls
+conda activate deepseek32b
+pip list
+conda intall pyaudio
+conda intsall pyaudio
+conda install pyaudio
+conda config --append channels conda-forge
+conda install pyaudio
+conda install -c anaconda pyaudio
+pip install numpy webrtcved
+pip install numpy
+pip list
+brew --help
+conda install webrtcved
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew --version
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo xcodebuild -license
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew --help
+/Users/yuulehang/.zprofile
+ls
+~/Users/yuulehang/.zprofile
+ls
+cd ..
+ls
+cd yuulehang
+ls
+where .zprofile
+conda isntall -c conda-forge pyaudio
+conda install -c conda-forge pyaudio
+brew install portaudio
+brew --version
+brew --version
+ls
+git --version
+ls
+cd items
+ls
+mkdir githubs
+ls
+cd githubs
+mkdir whispertest
+ls
+cd whispertest
+ls
+cd /
+ls
+cd Users
+ls
+cd yuulehang
+ls
+cd Downloads
+ls
+mv --help
+ls
+mv whisper-20240930.tar ~/items/githubs/whispertest
+ls
+cd ~/items/githubs/whispertest 
+ls
+tar --help
+tar -xzf whisper-20240930.tar
+ls
+rm whisper-20240930.tar
+ls
+cd whisper-20240930
+ls
+cd whisper
+cd ls
+ls
+cd .
+ls
+cd ..
+ls
+open whisper
+cd ..
+cd ..
+ls
+cd ..
+ls
+ls
+open githubs
+ls
+pip install
+pip list
+ls
+cd githubs
+ls
+cd whispertest
+ls
+cd whisper-20240930
+ls
+pip install -r requirements.txt
+whisper
+pip list
+pip install whisper
+pip list
+whisper --version
+cd ..
+ls
+xcode-select --help
+xcode-select --install
+ls
+cd ..
+;s
+ls
+cd whispertest
+ls
+cd ../..
+ls
+cd pythonproj
+ls
+cd whispertest
+./models/download-ggml-model.sh small
+cd /
+ls
+cd opt
+ls
+cd homebrew
+ls
+cd ..
+brew --version
+cd homebrew/bin/brew shellenv
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew --version
+conda activate deepseek32b
+ls
+brew --version
+cd ..
+ls
+brew --version
+brew install portaudio
+export HOMEBREW_NO_INSTALL_CLEANUP=TRUE\
+
+brew install portaudio
+pip list
+conda install pyaudio
+pip install pyaudio
+pip install webrtcvad
+pip list
+brew install ffmpeg
+brew install ffmpeg
+/usr/bin/python3 /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+/usr/bin/python3 /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+pip lists
+pip list
+pip install -U openai-whisper
+ls
+cd items/pythonproj/whispertest/
+ls
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+/usr/bin/python3 /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+/usr/bin/python3 /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+ls
+cd items/pythonproj/whispertest
+ls
+python voice2text.py
+ffmpeg -version
+deactivate
+source deactivate
+conda deactivate
+conda activate deepseek32b
+pip install ffmpeg
+brew install ffmpeg
+brew
+homebrew
+brew --config
+cd /
+ls
+cd opt
+ls
+cd homebrew
+ls
+history
+history -100
+history -200
+history -300
+history -all
+history -400
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew --version
+brew install ffmpeg
+brew reinstall ffmpeg
+git -C "$(brew --repo)" remote set-url origin https://mirrors.ustc.edu.cn/brew.git
+brew reinstall ffmpeg
+git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
+brew update
+brew reinstall ffmpeg
+brew reinstall ffmpeg
+brew reinstall ffmpeg
+brew install --fetch-HEAD ffmpeg
+ffmpeg -version
+echo $SHELL
+echo $SHELL
+ffmpeg -version
+brew --prefix ffmpeg
+brew list ffmpeg
+ls
+cd /
+ls
+cd Applications
+ls
+cd ..
+ls
+cd opt
+ls
+cd homebrew
+ls
+brew --prefix\
+
+echo $PATH\
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew --version
+brew --version
+ffmpeg -version
+conda deactivate
+conda deactivate
+ls
+conda activate deepseek32b
+ls
+ffmpeg -veersion
+echo $shell
+echo $SHELL
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew --version
+ffmpeg --version
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+ls
+cd voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+cl
+cls
+clr
+clear
+python voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+/Users/yuulehang/items/miniconda3/envs/deepseek32b/bin/python /Users/yuulehang/items/pythonproj/whispertest/voice2textstream.py
+python getvoice.py
+ls
+cd items/pythonproj/whispertest/
+pyhton getvoice.py
+pyhton getvoice.py
+python getvoice.py
+python getvoice.py
+python getvoice.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+ffmpeg --version
+history 200
+brew --version
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew --version
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2text.py
+python voice2text.py
+python voice2text.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+/usr/bin/python3 /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/yuulehang/.vscode/extensions/ms-python.python-2025.0.0-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+history 200
+eval "$(/opt/homebrew/bin/brew shellenv)"
+conda activate deepseek32b
+pip show librosa
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+pip show noisereduce
+pip show noisereduce
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2text.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+1
+1
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+pip show webrtcvad
+pip show webrtcvad
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
