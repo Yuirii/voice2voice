@@ -652,3 +652,389 @@ python voice2textstream.py
 python voice2textstream.py
 python voice2textstream.py
 python voice2textstream.py
+conda activate deepseek32b
+pip list
+pip freeze > requirements.txt
+history 100
+history > history.txt
+cat ~/.bash_history > history.txt
+history 100
+history 1000 > history.txt
+history -h
+history --help
+where bash_history
+which bash_history
+cat ~/.zsh_history > history.txt
+git init .
+ls
+git remote https://github.com/Yuirii/voice2voice.git
+git clone https://github.com/Yuirii/voice2voice.git
+git add .
+git help submodule
+git add .
+git commit -m "Reserved before stop."
+git push
+git push yuule
+git push main 
+ git config --global user.name "yuule"
+git config --global user.name "yuule"
+git config --global user.email "yuule@cxxy.seu.edu.cn"
+git push main 
+git status
+git branch
+git remote add origin https://github.com/Yuirii/voice2voice.git
+git push main 
+git push 
+git push --set-upstream origin main
+git remote
+git push origin main
+git pull
+git pull
+git pull main
+git pull origin
+ls
+git clone
+git clone https://github.com/Yuirii/voice2voice.git
+git push -f
+git push -f origin main
+git push -f origin main
+git log
+git diff
+git push origin main
+git pull --rebase origin main
+git diff
+git add .
+git commit -m "1"
+git add .
+git diff
+git diff
+git diff
+git pull
+git remote
+git remote origin 
+git remote origin main
+git push -f origin
+git push -f --set-upstream origin main
+git push -f --set-upstream main
+git push -f main
+git push -f origin main
+source ~/.zprofile
+cd /
+lss
+cd 
+ls
+cd /
+ls
+cd opt/homebrew
+ls
+cd nano --version
+cd bin
+ls
+brew --prefix
+bash
+ls
+brew --version
+ls
+brew --version
+ls
+cd ..
+brew --version
+ls
+cd ..
+ls
+brew --prefix
+where zprofile
+where zshrc
+zsh --verison
+where zsh
+cd /bin/zsh
+ls
+cd ./bin/zsh
+ls
+cd /
+cd ./bin/zsh
+ls
+cd bin/zsh
+ls
+cd bin
+ls
+cd zsh
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew --version
+sudo asitop
+brew install --cask stats
+brew install --cask stats
+brew install --cask stats
+ls
+cd /
+ls
+cd Users/yuulehang/items/miniconda3
+ls
+cd ..
+ls
+open
+ls
+open miniconda3
+pip install librosa
+conda activa deepseek32b
+conda activate deepseek32b
+pip install librosa
+pip install librosa
+pip install librosa
+pip install --upgrade librosa
+pip install noisereduce
+stats --version
+history 200
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew -V
+brew --version
+stats --version
+brew install --cask stats
+stats --version
+ls
+cd miniconda3
+ls
+cd ..
+cd githubs
+ls
+cd whispertest
+ls
+cd whisper-20240930
+ls
+cd ..
+cd ..
+ls
+cd ..
+cd pythonproj
+ls
+open
+open .
+ls
+cd voice2voice
+ls
+cd .git
+ls
+cd ..
+ls
+cd whispertest
+ls
+cd .git
+cd ..
+ls
+cd ..
+cd .git
+ls
+cd ..
+ls
+cd voice2voice
+ls
+rm .git
+rm -rf .git
+ls
+cd ..
+open
+open .
+ls
+rm -rf .git
+ls
+git clone https://github.com/Yuirii/voice2voice.git
+ls
+cd .git
+cd ..
+ls
+cd .git
+cd ..
+cd items/pythonproj
+ls
+cd .g
+cd voice2voice
+cd ..
+ls
+git clone https://github.com/Yuirii/voice2voice.git
+open .
+git clone https://github.com/Yuirii/voice2voice.git
+git pull
+cd voice2voice
+git pull
+git add .
+git commit -m "Reserved."
+git push
+git log
+git reflog
+git rebase -i HEAD~2
+git rebase -i HEAD~1
+git diff
+git checkout .
+git log
+git rebase -i HEAD~1
+git log
+git show HEAD~1
+git show HEAD
+ls
+git diff
+git merge --squash
+git rebase -i HEAD~1
+git diff
+git log
+git push
+open .
+cd ..
+ls
+open .
+git reflog
+cd voice2voice
+git reflog
+git reset ebc2881
+ls
+git log
+git reflog
+ls
+cd items
+ls
+cd pythonproj
+ls
+cd v
+cd voice2voice
+ls
+cd voice2voice
+ls
+cd ..
+git pull
+git pull main
+cd .git
+ls
+cd ..
+git reflog
+cd ..
+ls
+rm -rf voice2voice
+ls
+rm -rf voice2voice1
+ls
+history 100
+open .
+where .ssh
+which .ssh
+cd /
+open .
+ls
+cd .ssh
+ssh-add ~/.ssh/id_ed25519
+sudo chown -R $(whoami) ~/.ssh
+chmod 700 ~/.ssh
+where .ssh
+open .
+where .ssh
+/usr/bin/python3 /Users/yuulehang/items/pythonproj/voice2voice/whispertest/voice2text.py
+conda activate deepseek32b
+ssh-keygen -t rsa -b 4096 -C "yuulehang@gmail.com"
+ls
+cd /
+ls
+cd Users
+cd yuulehang/.ssh
+cd yuulehang
+ls
+ssh-keygen -t rsa -b 4096 -C "yuulehang@gmail.com"
+ls
+cd ls
+open
+open .
+ls
+cd items/pythonproj
+ls
+ls
+git config --global user.email "yuulehang@gmail.com"
+git clone git@github.com:Yuirii/voice2voice.git
+ssh-keyscan github.com
+git clone git@github.com:Yuirii/voice2voice.git
+ssh-keyscan github.com >> ~/.ssh/known_hosts
+ls
+cd..
+cd ..
+ls
+cd ..
+ls
+cd .ssh
+cd /.ssh
+ls -la .ssh
+ssh -T git@github.com
+cd items/pythonproj/
+ls
+git clone git@github.com:Yuirii/voice2voice.git
+git clone git@github.com:Yuirii/voice2voice.git
+eval "$(/opt/homebrew/bin/brew shellenv)"
+ls
+cd voice2voice
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+python whispertest/voice2textstream.py
+ls
+cd whispertest
+ls
+python voice2text.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python getvoice.py
+1
+1
+python getvoice.py
+python voice2textstream.py
+python voice2textstream.py
+brew --version
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+python voice2textstream.py
+git diff
+git ls
+ls
+git add .
+git commit -m "english version looks better than chinese."
+git push
+git push origin main
+git remote main
+git remote origin
+git remote
+git log
+git push main
+git remote -v
+cd ..
+git diff
+git push
+git remote
+cd ..
+ls
+git remote
+cd voice2voice
+ls
+git push origin main
+git remote  -v
+git fetch
+git remote show origin
