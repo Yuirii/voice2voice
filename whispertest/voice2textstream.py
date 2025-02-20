@@ -8,6 +8,8 @@ import queue
 import time
 import noisereduce as nr
 from webrtcvad import Vad
+import matplotlib.pyplot as plt
+import asyncio
 
 class AudioTranscriber:
     def __init__(self, model_name="small"):
@@ -17,6 +19,7 @@ class AudioTranscriber:
         self.vad = Vad(1)  # 使用中等敏感度
         self.context = np.array([], dtype=np.float32)
         self.sample_rate = 16000
+        self.plt = plt
 
     def get_audio_devices(self):
         p = pyaudio.PyAudio()
@@ -56,6 +59,7 @@ class AudioTranscriber:
         try:
             while self.recording:
                 data = stream.read(chunk, exception_on_overflow=False)
+
                 if len(data) != chunk * 2:
                     continue
                 
@@ -67,6 +71,8 @@ class AudioTranscriber:
                     if silent_frames > 20 and active_frames:
                         self.audio_queue.put(active_frames.copy())
                         active_frames.clear()
+
+
         finally:
             # 处理残留音频
             if active_frames:
@@ -77,14 +83,19 @@ class AudioTranscriber:
 
     def transcribe_audio(self):
         print("开始转写...")
+        aaa = "airpods_recording.wav" # 替换成你的音频文件路径
+        resaaa = self.model.transcribe(aaa)
+        print(resaaa["text"])
+
         while self.recording or not self.audio_queue.empty():
             if not self.audio_queue.empty():
                 frames = self.audio_queue.get()
                 wav_buffer = self.save_to_wav_buffer(frames)
+                # print(type(wav_buffer.read()))
                 
                 # 转换为numpy数组
                 audio_data = np.frombuffer(wav_buffer.read(), dtype=np.int16)
-                audio_data = audio_data.astype(np.float32) / 32768.0
+                audio_data = audio_data.astype(np.float32) / 32768.0  # 转换为浮点数
 
                 # 降噪处理
                 try:
@@ -99,27 +110,29 @@ class AudioTranscriber:
 
                 # 拼接上下文
                 full_audio = np.concatenate([self.context, audio_clean])
-                self.context = audio_clean[-self.sample_rate:]  # 保留1秒上下文
+                self.context = audio_clean[self.sample_rate:]  # 保留1秒上下文?
 
                 # 语音识别
                 result = self.model.transcribe(
                     full_audio,
-                    language="zh",
+                    language="en",
                     temperature=0.1,
                     beam_size=5
                 )
 
                 # 中文去重（处理连续重复字符）
                 text = result["text"].strip()
-                if text:
-                    dedup_text = []
-                    prev_char = None
-                    for char in text:
-                        if char != prev_char:
-                            dedup_text.append(char)
-                        prev_char = char
-                    final_text = ''.join(dedup_text)
-                    print("识别结果:", final_text)
+                print("识别结果:", text)
+
+                # if text:
+                #     dedup_text = []
+                #     prev_char = None
+                #     for char in text:
+                #         if char != prev_char:
+                #             dedup_text.append(char)
+                #         prev_char = char
+                #     final_text = ''.join(dedup_text)
+                #     print("识别结果:", final_text)
 
     def start(self, device_index):
         self.recording = True
@@ -130,7 +143,6 @@ class AudioTranscriber:
         transcribe_thread = threading.Thread(target=self.transcribe_audio)
         
         record_thread.start()
-        time.sleep(0.5)
         transcribe_thread.start()
         
         try:
